@@ -1,0 +1,44 @@
+{
+    "dctnst34b56h501u": {
+        "Nome": "Mario",
+        "Cognome": "Rossi",
+        "DataNascita": "2004-08-14",
+        "CodiceFiscale": "dctnst34b56h501u"
+    },
+    "dctnst33b56h501u": {
+        "Nome": "Sara",
+        "Cognome": "Neri",
+        "DataNascita": "2000-09-19",
+        "CodiceFiscale": "dctnst33b56h501u"
+    },
+    "dctjkt34b56h501u": {
+        "Nome": "Maria",
+        "Cognome": "Verdi",
+        "DataNascita": "2004-08-21",
+        "CodiceFiscale": "dctjkt34b56h501u"
+    },
+    "dcthjf780984jh": {
+        "Nome": "Marco",
+        "Cognome": "Giorgio",
+        "DataNascita": "2002-04-11",
+        "CodiceFiscale": "dcthjf780984jh"
+    },
+    "CRLCRL04AO03501B": {
+        "Nome": "Carlo",
+        "Cognome": "Carli",
+        "DataNascita": "1986-04-03",
+        "CodiceFiscale": "CRLCRL04AO03501B"
+    },
+    "NRIFRN02M21G501B": {
+        "Nome": "Franco",
+        "Cognome": "Neri",
+        "DataNascita": "2002-08-21",
+        "CodiceFiscale": "NRIFRN02M21G501B"
+    },
+    "CRLCRL14M09C501H": {
+        "nome": "Carlo",
+        "cognome": "Carli",
+        "dataNascita": "14/09/1976",
+        "codFiscale": "CRLCRL14M09C501H"
+    }
+}
