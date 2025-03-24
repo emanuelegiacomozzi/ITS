@@ -7,7 +7,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 base_url = "https://127.0.0.1:8080"
 
 def GetCasaVendita():
-    catastale = input("Inserisci catastale: ")
+    catastale = input("Inserisci catastal: ")
     indirizzo = input("Inserisci indirizzo: ")
     civico = input("Inserisci civico")
     piano = input("Inserisci il numero di piani: ")
