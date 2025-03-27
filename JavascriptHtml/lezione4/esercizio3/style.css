@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top right, #f96f20 20%, #ea1fc2 40%, #3ebbf5 90%);
+    
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.gradient-text {
+    background: linear-gradient(to top right, #f96f20 20%, #ea1fc2 40%, #3ebbf5 90%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; /* Rende il testo trasparente per mostrare il gradiente */
+    font-size: 50px;
+    display: inline-block; /* Necessario per l'animazione */
+    animation: bounce 0.5s infinite alternate ease-in-out;
+}
+
+
+div{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%; /* Occupa tutta la larghezza */
+    margin: 5px 0;
+    border: 1px solid #e714e7;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    background: #1953e5;
+    color: rgb(248, 252, 255);
+    cursor:pointer;
+    border:none;
+    width: 100%;
+    height: 30px;
+    font-size:14px;
+    padding: 8px 14px;
+    border-radius: 8px;
+
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+    
+}
+
+p {
+    color: black;
+    font-size: 1.2em;
+    margin: 10px 0;
+    
+}
+
+.new-game{
+    margin-top:30px;
+}
+
+
+.gradient-text2 {
+    background: linear-gradient(to top right, #f96f20 20%, #ea1fc2 40%, #3ebbf5 90%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; /* Rende il testo trasparente per mostrare il gradiente */
+    font-size: 20px;
+}
