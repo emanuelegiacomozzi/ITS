@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Occupa sempre l'altezza della viewport */
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+body{
+  height:100%;
+  margin:0;
+  background: white;
+  overflow-x:hidden; 
+  overflow-y:auto;
+  
+}
+
+.mainApp{
+  flex:1;
+  margin-top: 120px;
+  width: 100%;
+  padding:20px;
+  overflow-y:auto;
+}
+
+footer{
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding: 1px;
+  width: 100%; 
+  left:0;
+  bottom:0;
+  position: fixed;
+}
+
+@media (max-width:768px){
+
+  footer{
+    font-size:14px;
+    padding:8px;
+  }
+
+  .mainApp{
+    padding:10px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  footer{
+    font-size:12px;
+  }
+}
