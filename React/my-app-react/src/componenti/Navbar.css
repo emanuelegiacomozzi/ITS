@@ -1,0 +1,25 @@
+ul li {
+
+    color: red;
+}
+
+.bordoArrotondato{
+
+    height: "200px";
+    border-radius: "90px";
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+.rounded{
+    border-radius: 100px
+}
+
+.rotated{
+    rotate: 40deg;
+    background-color: blue;
+}
