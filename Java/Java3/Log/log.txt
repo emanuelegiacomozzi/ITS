@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-01-29T14:25:54.093292733Z</date>
+  <millis>1738160754093</millis>
+  <nanos>292733</nanos>
+  <sequence>0</sequence>
+  <logger>LogSuFile</logger>
+  <level>SEVERE</level>
+  <class>LogSuFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is a SEVERE error message</message>
+</record>
+<record>
+  <date>2025-01-29T14:25:54.131265853Z</date>
+  <millis>1738160754131</millis>
+  <nanos>265853</nanos>
+  <sequence>1</sequence>
+  <logger>LogSuFile</logger>
+  <level>WARNING</level>
+  <class>LogSuFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is a WARNING message</message>
+</record>
+<record>
+  <date>2025-01-29T14:25:54.131751893Z</date>
+  <millis>1738160754131</millis>
+  <nanos>751893</nanos>
+  <sequence>2</sequence>
+  <logger>LogSuFile</logger>
+  <level>INFO</level>
+  <class>LogSuFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is an INFO message</message>
+</record>
+<record>
+  <date>2025-01-29T14:25:54.132298140Z</date>
+  <millis>1738160754132</millis>
+  <nanos>298140</nanos>
+  <sequence>3</sequence>
+  <logger>LogSuFile</logger>
+  <level>CONFIG</level>
+  <class>LogSuFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is a CONFIG message</message>
+</record>
+<record>
+  <date>2025-01-29T14:25:54.132636980Z</date>
+  <millis>1738160754132</millis>
+  <nanos>636980</nanos>
+  <sequence>4</sequence>
+  <logger>LogSuFile</logger>
+  <level>FINE</level>
+  <class>LogSuFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is a FINE debug message</message>
+</record>
+</log>
